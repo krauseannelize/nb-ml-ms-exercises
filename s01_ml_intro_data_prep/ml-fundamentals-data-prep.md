@@ -7,6 +7,9 @@
 3. [Supervised vs. Unsupervised Learning](#3-supervised-vs-unsupervised-learning)
 4. [Supervised Learning](#4-supervised-learning)
 5. [Unsupervised Learning](#5-unsupervised-learning)
+6. [Data Science Lifecycle](#6-data-science-lifecycle)
+7. [Why Data Types are Important](#7-why-data-types-are-important)
+8. [Features Preparation](#8-features-preparation)
 
 ## 1. Core Concepts
 
@@ -156,3 +159,53 @@ classDef ce stroke:#77a9d7,stroke-width:4px;
 **Dimensionality Reduction** simplifies complex data by focusing on the most important features.
 
 [(back to top)](#table-of-contents)
+
+## 6. Data Science Lifecycle
+
+![Data Science Life Cycle](/s01_ml_intro_data_prep/ds-lifecycle.jpg)
+
+| Nr | Step | Focus | What Happens | Example |
+| --- | --- | --- | --- | ---|
+| 1 | **Problem Definition** | Define the question | Frame a clear, measurable ML problem | Predict if a transaction is fraudulent in real time |
+| 2 | **Data Collection** | Gather inputs | Collect relevant data from databases, APIs, sensors, logs, surveys | Customer history, demographics and support interaction for churn model |
+| 3 | **Data Preparation** | Clean & format | Remove duplicates, fix errors, handle missing values, encode features, split into train/test sets | Transform emails into word counts for spam filter |
+| 4 | **Data Exploration** | Understand data | Use stats and visualizations to correlations, anomalies and outliers | High support contacts → higher churn risk |
+| 5 | **Model Building** | Train algorithms | Select and train models on training data, adjust parameters to minimize error | Logistic regression for churn prediction |
+| 6 | **Model Evaluation** | Test performance | Evaluate on unseen test data with metrics: accuracy, precision, recall | Spam filter tested on new emails |
+| 7 | **Model Deployment** | Real-world use | Deploy validated model, monitor, and retrain as data evolves | Netflix recommendation engine in production |
+
+[(back to top)](#table-of-contents)
+
+## 7. Why Data Types are important
+
+**Data preparation** is a crucial step in Machine Learning and includes:
+
+- Handling missing values
+- Removing duplicates and errors
+- Encoding categorical variables
+- Scaling or normalizing numerical values
+- Splitting data into training and test sets
+
+We need to understand the type of data we're working with as _**each type requires different preprocessing methods**_.
+
+| Data Type | Subtypes | Definition | Examples | Why It Matters |
+| --- | --- | --- | --- | --- |
+| **Numeric (Quantitative)** | Continuous | Any real value in a range | weight, height, temperature | Different scales can bias models unless normalized |
+| | Discrete | Countable integers | number of products sold, customers in store | |
+| **Categorical (Qualitative)** | Nominal | Unordered categories | gender, colors, product types | Must be encoded into numbers, and order matters for ordinal but not for nominal |
+| | Ordinal | Ordered categories | education levels, ratings | |
+| **Text** | — | Unstructured sequences of words o characters | Reviews, tweets, emails | Needs transformation into numeric features such as word counts |
+| **Time Series** | — | Data collected at regular time intervals | Stock prices, sensor readings, sales over time | Order and temporal patterns (trends, seasonality) are crucial for predictions |
+| **Boolean (Binary)** | — | 0/1 or True/False | Spam/not spam, pass/fail | Imbalanced classes can mislead models, e.g. if spam emails rare, model could cheat by always predicting "not spam" |
+| **Image** | — | Pixel-based data (grayscale or RGB) | Photos, medical scans, satellite images | Requires specialized processing |
+
+[(back to top)](#table-of-contents)  
+
+## 8. Features Preparation
+
+---
+
+Proceed to next section:
+
+[(back to top)](#table-of-contents)  
+[(back to README)](/README.md)
