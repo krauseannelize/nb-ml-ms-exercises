@@ -5,7 +5,8 @@
 1. [Core Concepts](#1-core-concepts)
 2. [Machine Learning Applications](#2-machine-learning-applications)
 3. [Supervised vs. Unsupervised Learning](#3-supervised-vs-unsupervised-learning)
-4. [Classification vs. Regression](#4-classification-vs-regression)
+4. [Supervised Learning](#4-supervised-learning)
+5. [Unsupervised Learning](#5-unsupervised-learning)
 
 ## 1. Core Concepts
 
@@ -21,39 +22,68 @@
 
 ## 2. Machine Learning Applications
 
-| Sector | Applications |
-| --- | --- |
-| **Automotive Industry** | • Autonomous driving: object detection, lane recognition, decision-making |
-| | • Predictive maintenance by monitoring car components |
-| | • Smart infotainment: voice assistants, personalized navigation, gesture control |
-| **Manufacturing (Industry 4.0)** | • Process optimization: reduce waste, improve efficiency |
-| | • Quality control with ML-powered cameras |
-| | • Adaptive robotics (machines learn new tasks) |
-| **Finance & Banking** | • Fraud detection in real time | 
-| | • Risk management |  
-| | • Customer service via chatbots and assistants |
-| **Healthcare** | • Medical imaging: tumor, fracture, heart condition detection |
-| | • Personalized treatment: genetic and historical data |
-| | • Hospital management: predict admissions, allocate resources |
-| **Energy Sector** | • Smart grids: balance supply and demand |
-| | • Renewables: forecasting solar, wind output |
-| | • Predictive maintenance of turbines and solar farms |
-| **Retail & E-commerce** | • Recommendation systems |
-| | • Supply chain optimization" demand forecasting, stock management |
-| | • Customer insights for targeted marketing |
-| **Telecommunications** | • Network optimization: predict outages, improve performance |
-| | • Churn prediction: proactive retention deals |
-| **Research & Academia** | • Climate modeling and physics simulations |
-| | • German Research Center for AI (DFKI) as a major hub |
-| | • Corporate labs apply ML to their sectors: Zalando, Siemens, AstraZeneca |
-| **Logistics & Transportation** | • Route optimization: reduce fuel, faster delivery |
-| | • Predictive logistics: anticipate demand, manage fleets |
-| **Government & Public Services** | • Smart cities: traffic, pollution, safety management |
-| | • Cybersecurity: threat detection, system protection |
-| | • Defense: simulations, strategic planning |
-| **Daily Life Examples** | • Google Maps rerouting |
-| | • Netflix & Spotify recommendations |
-| | • Email spam filters |
+## Automotive Industry
+
+- Autonomous driving: object detection, lane recognition, decision-making
+- Predictive maintenance by monitoring car components
+- Smart infotainment: voice assistants, personalized navigation, gesture control
+
+## Manufacturing (Industry 4.0)
+
+- Process optimization: reduce waste, improve efficiency
+- Quality control with ML-powered cameras
+- Adaptive robotics (machines learn new tasks)
+
+## Finance & Banking
+
+- Fraud detection in real time
+- Risk management  
+- Customer service via chatbots and assistants
+
+## Healthcare
+
+- Medical imaging: tumor, fracture, heart condition detection
+- Personalized treatment: genetic and historical data
+- Hospital management: predict admissions, allocate resources
+
+## Energy Sector
+
+- Smart grids: balance supply and demand
+- Renewables: forecasting solar, wind output
+- Predictive maintenance of turbines and solar farms
+
+## Retail & E-commerce
+
+- Recommendation systems
+- Supply chain optimization" demand forecasting, stock management
+- Customer insights for targeted marketing
+
+## Telecommunications
+
+- Network optimization: predict outages, improve performance
+- Churn prediction: proactive retention deals
+
+## Research & Academia
+
+- Climate modeling and physics simulations
+- German Research Center for AI (DFKI) as a major hub
+- Corporate labs apply ML to their sectors: Zalando, Siemens, AstraZeneca
+
+## Logistics & Transportation-Route optimization: reduce fuel, faster delivery
+
+- Predictive logistics: anticipate demand, manage fleets
+
+## Government & Public Services
+
+- Smart cities: traffic, pollution, safety management
+- Cybersecurity: threat detection, system protection
+- Defense: simulations, strategic planning
+
+## Daily Life Examples
+
+- Google Maps rerouting
+- Netflix & Spotify recommendations
+- Email spam filters
 
 [(back to top)](#table-of-contents)
 
@@ -64,9 +94,7 @@
 | **Training on** | Labeled datasets | Unlabeled datasets |
 | **Outputs** | Input paired with correct output | No predefined outputs |
 | **Goal** | Learn a mapping from inputs to outputs to make predictions on new data | Identify hidden patterns, structures, or relationships within the data |
-| **Common Algorithms** | • Linear regression | • Clustering (k-means, hierarchical) |
-| | • Decision trees | • Dimensionality reduction (PCA, t-SNE) |
-| | • Neural networks | |
+| **Common Algorithms** | Linear regression, decision trees, neural networks | Clustering (k-means, hierarchical), dimensionality reduction (PCA, t-SNE) |
 
 [(back to top)](#table-of-contents)
 
@@ -111,7 +139,7 @@ classDef ce stroke:#77a9d7,stroke-width:4px;
 
 **Regression** predicts numbers:
 
-- What will the pric of this house be?
+- What will the price of this house be?
 - How much revenue will a new lead generate in the first year?
 
 [(back to top)](#table-of-contents)
@@ -123,7 +151,7 @@ classDef ce stroke:#77a9d7,stroke-width:4px;
 **Clustering** groups similar thing together, such as:
 
 - Segment customers by their shopping habits
-- Discover hidden sub-groups withiin your existing customers
+- Discover hidden sub-groups within your existing customers
 
 **Dimensionality Reduction** simplifies complex data by focusing on the most important features.
 
