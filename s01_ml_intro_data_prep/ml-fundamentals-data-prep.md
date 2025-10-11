@@ -10,6 +10,7 @@
 6. [Data Science Lifecycle](#6-data-science-lifecycle)
 7. [Why Data Types are Important](#7-why-data-types-are-important)
 8. [Features Preparation](#8-features-preparation)
+9. [Steps in Feature Preparation](#9-steps-in-feature-preparation)
 
 ## 1. Core Concepts
 
@@ -202,6 +203,80 @@ We need to understand the type of data we're working with as _**each type requir
 [(back to top)](#table-of-contents)  
 
 ## 8. Features Preparation
+
+**Features** are the _inputs_ you give to a machine learning model so it can make predictions. They’re the measurable properties or characteristics that describe each data point. For example, when looking at **house prices**, features could be:
+
+- size of the house,
+- number of rooms,
+- location, or
+- year built.
+
+**Feature preparation** transforms messy raw data into a clean, structured, and consistent form. This makes the model: learn faster, perform better, generalize to new data.
+
+[(back to top)](#table-of-contents)
+
+## 9. Steps in Feature Preparation
+
+### Step 1 | Handling Missing Data
+
+| **Why** | Most ML algorithms can’t handle missing data directly |
+| --- | --- |
+| **Handle** | • Drop rows/columns if only a few values are missing |
+| | • Impute with mean/median (numeric), mode/“Unknown” (categorical) |
+| | • Be mindful that dropping or imputation may introduce bias |
+
+### Step 2 | Handling Outliers
+
+| **Why** | Extreme values can distort statistics, mislead models and skew results |
+| --- | --- |
+| **Detect** | Boxplots, IQR method, Z-scores |
+| **Handle** | • Remove (if errors) |
+| | • Cap at thresholds (winsorization) |
+| | • Transform (e.g., log) |
+| | • Keep them if they are meaningful (e.g., fraud detection) |
+
+### Step 3 | Handling Categorical Data
+
+| **Why** | ML models need numbers, not strings |
+| --- | --- |
+| **Handle** | • Label encoding (ordinal features) |
+| | • One-hot encoding (nominal features) |
+| | $\quad$- `pd.get_dummies()` → fast prototyping |
+| | $\quad$- `OneHotEncoder` → production-safe (handles unseen categories) |
+
+### Step 4 | Feature Scaling
+
+| **Why** | Many models are sensitive to feature magnitudes |
+| --- | --- |
+| **Handle** | • Normalization (Min-Max Scaling) |
+| | $\quad$- rescales values to a fixed range (0,1) |
+| | $\quad$- best when no outliers |
+| | • Standardization (Z-score Scaling) |
+| | $\quad$- rescales values to have mean=0, std=1 |
+| | $\quad$- works well in most cases |
+| **Not needed** | Tree-based models (Decision Trees, Random Forests, Gradient Boosted Trees) |
+
+The key difference is:
+
+- **Normalization** squeezes data into a fixed range, usually (0, 1)
+- **Standardization** centers the data and rescales based on variance, but does not confine it to (0, 1)
+
+### Step 5 | Feature Creation and Transformation
+
+| **Why** | Raw data often doesn’t capture the full story and engineered features can boost performance |
+| --- | --- |
+| **Handle** | • Create new features |
+| | $\quad$- Example: `FamilySize` = `SibSp`(siblings/spouses) + `Parch`(parents/children) |
+| | • Transform skewed variables |
+| | • Bin continuous values |
+| | • Extract from strings/dates |
+| | $\quad$- Example: `Title` from `Name` |
+
+### Step 6 | Feature Selection
+
+Details to follow later.
+
+{add links to exercises and next section}
 
 ---
 
