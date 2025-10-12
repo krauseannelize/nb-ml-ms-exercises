@@ -220,17 +220,17 @@ We need to understand the type of data we're working with as _**each type requir
 ### Step 1 | Handling Missing Data
 
 | **Why** | Most ML algorithms can’t handle missing data directly |
-| --- | --- |
-| **Handle** | • Drop rows/columns if only a few values are missing |
+|:--- |:--- |
+| **How** | • Drop rows/columns if only a few values are missing |
 | | • Impute with mean/median (numeric), mode/“Unknown” (categorical) |
 | | • Be mindful that dropping or imputation may introduce bias |
 
 ### Step 2 | Handling Outliers
 
 | **Why** | Extreme values can distort statistics, mislead models and skew results |
-| --- | --- |
+|:--- |:--- |
 | **Detect** | Boxplots, IQR method, Z-scores |
-| **Handle** | • Remove (if errors) |
+| **How** | • Remove (if errors) |
 | | • Cap at thresholds (winsorization) |
 | | • Transform (e.g., log) |
 | | • Keep them if they are meaningful (e.g., fraud detection) |
@@ -238,8 +238,8 @@ We need to understand the type of data we're working with as _**each type requir
 ### Step 3 | Handling Categorical Data
 
 | **Why** | ML models need numbers, not strings |
-| --- | --- |
-| **Handle** | • Label encoding (ordinal features) |
+|:--- |:--- |
+| **How** | • Label encoding (ordinal features) |
 | | • One-hot encoding (nominal features) |
 | | $\quad$- `pd.get_dummies()` → fast prototyping |
 | | $\quad$- `OneHotEncoder` → production-safe (handles unseen categories) |
@@ -247,8 +247,8 @@ We need to understand the type of data we're working with as _**each type requir
 ### Step 4 | Feature Scaling
 
 | **Why** | Many models are sensitive to feature magnitudes |
-| --- | --- |
-| **Handle** | • Normalization (Min-Max Scaling) |
+|:--- |:--- |
+| **How** | • Normalization (Min-Max Scaling) |
 | | $\quad$- rescales values to a fixed range (0,1) |
 | | $\quad$- best when no outliers |
 | | • Standardization (Z-score Scaling) |
@@ -264,8 +264,8 @@ The key difference is:
 ### Step 5 | Feature Creation and Transformation
 
 | **Why** | Raw data often doesn’t capture the full story and engineered features can boost performance |
-| --- | --- |
-| **Handle** | • Create new features |
+|:--- |:--- |
+| **How** | • Create new features |
 | | $\quad$- Example: `FamilySize` = `SibSp`(siblings/spouses) + `Parch`(parents/children) |
 | | • Transform skewed variables |
 | | • Bin continuous values |
