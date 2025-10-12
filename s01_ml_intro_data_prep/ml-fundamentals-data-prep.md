@@ -104,7 +104,7 @@
 
 ## 4. Supervised Learning
 
-![Supervised Learning](/s01_ml_intro_data_prep/ml-supervised.png)
+![Supervised Learning](/images/s01-ml-supervised.png)
 
 ```mermaid
 ---
@@ -150,7 +150,7 @@ classDef ce stroke:#77a9d7,stroke-width:4px;
 
 ## 5. Unsupervised Learning
 
-![Unsupervised Learning](/s01_ml_intro_data_prep/ml-unsupervised.png)
+![Unsupervised Learning](/images/s01-ml-unsupervised.png)
 
 **Clustering** groups similar thing together, such as:
 
@@ -163,7 +163,7 @@ classDef ce stroke:#77a9d7,stroke-width:4px;
 
 ## 6. Data Science Lifecycle
 
-![Data Science Life Cycle](/s01_ml_intro_data_prep/ds-lifecycle.jpg)
+![Data Science Life Cycle](/images/s01-ds-lifecycle.jpg)
 
 | Nr | Step | Focus | What Happens | Example |
 | --- | --- | --- | --- | ---|
