@@ -11,6 +11,7 @@
 7. [Why Data Types are Important](#7-why-data-types-are-important)
 8. [Features Preparation](#8-features-preparation)
 9. [Steps in Feature Preparation](#9-steps-in-feature-preparation)
+10. [Feature Preparation Exercises](#10-feature-preparation-exercises)
 
 ## 1. Core Concepts
 
@@ -276,11 +277,16 @@ The key difference is:
 
 Details to follow later.
 
-{add links to exercises and next section}
+[(back to top)](#table-of-contents)
+
+## 10. Feature Preparation Exercises
+
+1. [Guided: Titanic Dataset](/notebooks/01_feature_prep_titanic.ipynb)
+2. [Unguided: Adult Income](/notebooks/02_feature_prep_adult_income.ipynb)
 
 ---
 
-Proceed to next section:
+Proceed to next section: [Supervised Learning & First Models](/s01_ml_intro_data_prep/supervised-learning-1st-models.md)
 
 [(back to top)](#table-of-contents)  
 [(back to README)](/README.md)

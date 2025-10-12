@@ -6,13 +6,16 @@ This is my personal Machine Learning learning journal from the Masterschool Data
 
 ## Sprint 1: Intro to Machine Learning & Data Preparation
 
-Get your hands dirty—clean data, build your very first model, and see it make predictions.
+Get your hands dirty: clean data, build your very first model, and see it make predictions.
 
 1. [Machine Learning Fundamentals & Data Preparation](/s01_ml_intro_data_prep/ml-fundamentals-data-prep.md)
+2. [Feature Preparation Exercise | Titanic](/notebooks/01_feature_prep_titanic.ipynb)
+3. [Feature Preparation Exercise | Adult Income](/notebooks/02_feature_prep_adult_income.ipynb)
+4. [Supervised Learning & First Models](/s01_ml_intro_data_prep/supervised-learning-1st-models.md)
 
 ## Sprint 2: Supervised Machine Learning
 
-Go deeper—test how good your model really is and unlock the world of regression.
+Go deeper: test how good your model really is and unlock the world of regression.
 
 ## Sprint 3: Supervised Learning Project
 
