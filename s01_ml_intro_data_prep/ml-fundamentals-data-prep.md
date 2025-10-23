@@ -281,8 +281,8 @@ Details to follow later.
 
 ## 10. Feature Preparation Exercises
 
-1. [Guided: Titanic Dataset](/notebooks/01_feature_prep_titanic.ipynb)
-2. [Unguided: Adult Income](/notebooks/02_feature_prep_adult_income.ipynb)
+1. [Guided: Titanic Dataset](/s01_ml_intro_data_prep/01_feature_prep_titanic.ipynb)
+2. [Unguided: Adult Income](/s01_ml_intro_data_prep/02_feature_prep_adult_income.ipynb)
 
 ---
 

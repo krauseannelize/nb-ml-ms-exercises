@@ -9,12 +9,12 @@ This is my personal Machine Learning learning journal from the Masterschool Data
 Get your hands dirty: clean data, build your very first model, and see it make predictions.
 
 1. [Machine Learning Fundamentals & Data Preparation](/s01_ml_intro_data_prep/ml-fundamentals-data-prep.md)
-2. [Feature Preparation Exercise | Titanic](/notebooks/01_feature_prep_titanic.ipynb)
-3. [Feature Preparation Exercise | Adult Income](/notebooks/02_feature_prep_adult_income.ipynb)
+2. [Feature Preparation Exercise | Titanic](/s01_ml_intro_data_prep/01_feature_prep_titanic.ipynb)
+3. [Feature Preparation Exercise | Adult Income](/s01_ml_intro_data_prep/02_feature_prep_adult_income.ipynb)
 4. [Supervised Learning & First Models](/s01_ml_intro_data_prep/supervised-learning-1st-models.md)
-5. [ML Models Exercise | Regression](/notebooks/03_ml_model_regression.ipynb)
-6. [ML Models Exercise | Titanic](/notebooks/04_ml_model_titanic.ipynb)
-7. [ML Models Exercise | Adult Income](/notebooks/05_ml_model_adult_income.ipynb)
+5. [ML Models Exercise | Regression](/s01_ml_intro_data_prep/03_ml_model_regression.ipynb)
+6. [ML Models Exercise | Titanic](/s01_ml_intro_data_prep/04_ml_model_titanic.ipynb)
+7. [ML Models Exercise | Adult Income](/s01_ml_intro_data_prep/05_ml_model_adult_income.ipynb)
 
 ## Sprint 2: Supervised Machine Learning
 

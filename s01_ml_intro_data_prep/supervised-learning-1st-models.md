@@ -83,9 +83,9 @@ Regression metrics:
 
 ## 3. ML Models Exercises
 
-1. [Guided: Regression Data](/notebooks/03_ml_model_regression.ipynb)
-2. [Guided: Titanic Dataset](/notebooks/04_ml_model_titanic.ipynb)
-3. [Unguided: Adult Income](/notebooks/05_ml_model_adult_income.ipynb)
+1. [Guided: Regression Data](/s01_ml_intro_data_prep/03_ml_model_regression.ipynb)
+2. [Guided: Titanic Dataset](/s01_ml_intro_data_prep/04_ml_model_titanic.ipynb)
+3. [Unguided: Adult Income](/s01_ml_intro_data_prep/05_ml_model_adult_income.ipynb)
 
 ---
 
